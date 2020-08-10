@@ -1,11 +1,4 @@
 @charset "UTF-8";
-/*
-Template Name: Jonk - CV Resume Personal HTML Template
-Template URI: rudhisasmito.com/demo/jonk
-Author: Rudhi Sasmito
-Author URI: https://www.behance.net/rudhisasmito
-Version: 1.0
-*/
 /**
  * Table of Contents:
  *
@@ -816,6 +809,11 @@ ol, ul {
   ol li, ul li {
     margin: 8px 0; }
 
+.header-name {
+    color: #222222;
+    font-size: 3.5rem;
+    font-family: "Yellowtail", cursive;
+}
 .title-heading {
   color: #041e42;
   font-size: 36px;
@@ -1248,7 +1246,14 @@ address {
 
 @media (max-width: 768px) {
   .eqHeight {
-    display: inherit; } }
+    display: inherit; } 
+    .header-name {
+    font-size: 2rem;
+}
+    .headerV1{
+        background-position: 10% !important;
+    }
+}
 .eqHeight2 {
   display: table; }
   .eqHeight2 .col {
