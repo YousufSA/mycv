@@ -1852,13 +1852,16 @@ address {
     padding: 5px; }
     .gallery-work > [class^="col-"] a,
     .gallery-work > [class*=" col-"] a {
-      background-color: #000000;
-      display: block; }
+      background-color: #FFFFFF;
+      display: block;
+padding:1rem}
       .gallery-work > [class^="col-"] a img,
       .gallery-work > [class*=" col-"] a img {
         width: 100%;
         display: block;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        height: 273px;
+}
     .gallery-work > [class^="col-"]:before,
     .gallery-work > [class*=" col-"]:before {
       content: '';
