@@ -1216,6 +1216,10 @@ textarea.form-control {
   margin-bottom: 30px;
   display: block;
   clear: both; }
+.footer-name{
+    color: var(--main-color);
+    font-family: "Yellowtail", cursive;
+}
   .sosmed-icon a .item, .footer .footer-item a .item {
     color: #222222;
     display: table-cell;
