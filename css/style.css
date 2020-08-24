@@ -1271,7 +1271,16 @@ address {
   display: table; }
   .eqHeight2 .col {
     display: table-cell; }
+.p-1{
+    padding:1rem;
+}
 
+.p-2{
+    padding:2rem;
+}
+.float-right{
+    float: right;
+}
 /**
  * 3. - COMPONENTS
  * -----------------------------------------------------------------------------

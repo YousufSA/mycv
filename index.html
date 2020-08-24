@@ -481,7 +481,7 @@ Custom Web Application Development.</div>
 				<div class="col-sm-9 col-md-9">
 					<div class="row gallery-work">
 						<div class="col-sm-4 col-md-4">
-							<a href="https://www.gomart.ae/" target="_blank"><img src="images/projects/gomart.svg" alt="GoMart" class="img-responsive"></a>
+							<a href="#" onclick="showProject('gomart');return false;"><img src="images/projects/gomart.svg" alt="GoMart" class="img-responsive"></a>
 						</div>
 						<div class="col-sm-4 col-md-4">
 							<a href="http://alsofra.com/" target="_blank"><img src="images/projects/al-sofra.svg" alt="Al Sofra" class="img-responsive"></a>
@@ -721,7 +721,35 @@ BLOG ends -->
 		
 		
 	</div>
-	
+<!-- The modal -->
+<div class="modal fade" id="project-details" tabindex="-1" role="dialog" aria-labelledby="modalLabelLarge" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Modal Title</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/yousuf_s_a_article.jpeg" class="thumbnail product-logo p-2" alt="Yousuf S A | work"/>
+                    </div>
+                    <div class="col-sm-9">
+                        <h3 class="project-name">Yousuf S A</h3>
+                        <p class="project-desc">Software Engineer</p>
+                        <p>Link: <a href="http://yousufsa.com/" target="_blank" class="project-link">Yousuf S A</a></p>
+                        <h4>Role:<p class="project-role"></p></h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 	<!-- JS VENDOR -->
 	<script type="text/javascript" src="js/vendor/jquery.min.js"></script>
 	<script type="text/javascript" src="js/vendor/jquery.appear.js"></script>

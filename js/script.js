@@ -472,8 +472,65 @@ $(document).ready(function(){
 	
 });
 
-
-
+function showProject(name){
+    var title="",description="",logo="",details="",url="",country="";
+    switch (name) {
+  case "gomart":
+    title = "GoMart";
+    logo = "images/projects/gomart.svg";
+    url = "https://www.gomart.ae/";
+    country = "United Arab Emirates";
+    description = "GoMart is an omni-channel marketplace which aims to provide adequate resources to the merchants and services providers so that they can manage their business efficiently. Today's retail market is getting very tough and challenging due to changing customer buying patterns which have resulted in a struggle for small retailers and service providers to maintain their sales and probability. GoMart is the solution the reliable and reasonable solution which can empower them to fulfill the customer's need and provide them with a unified shopping experience.";
+    details = "Frontend, Backend functionality, and APIs for mobile applications";
+    break;
+    case "sofra":
+    title = "Al Sofra";
+    logo = "images/projects/al-sofra.svg";
+    url = "http://alsofra.com/";
+    country = "United Arab Emirates";
+    description = "Al Sofra is an online restaurant POS app, it has a user friendly interface that everyone can use without difficulty. The POS can be used online, on iPads, Android tablets or laptops. <br/>Say goodbye to ugly, expensive, outdated POS systems and enjoy the Al Sofra web POS web interface designed for the modern retailer.";
+    details = "Frontend developer UI/UX";
+    break;
+    case "simplyweight":
+    title = "Simply Weight";
+    logo = "images/projects/simply-weight.png";
+    url = "https://www.simplyweight.co.uk/";
+    country = "United Kingdom";
+    description = "SimplyWeight is a new, revolutionary weight loss application that has already transformed many lives, it is an online portal to get daily, weekly, monthly diet plans, vidoes for healthy excercise, motivational stories and live chat with the doctors.";
+    details = "Frontend and Backend functionality";
+    break;
+    case "mbg":
+    title = "My Best Gift";
+    logo = "images/projects/mbg.png";
+    url = "https://www.mybestgift.com.au/";
+    country = "United Arab Emirates";
+    description = "My Best Gift is Australia's only online marketplace dedicated to kids activities and experiences. It cater for all ages, from new - borns to 18 - year - olds.";
+    details = "Frontend and Backend functionality";
+    break;
+    case "iconnectx":
+    title = "iConnectX";
+    logo = "images/projects/iConnectX.png";
+    url = "https://play.google.com/store/apps/details?id=com.v2soft.iconnectx";
+    country = "United States";
+    description = "iConnectX is a fundraising platform for nonprofit charities to raise funds through online auctions, silent auctions, online donations, ticketed events, mentoring, programs, volunteering, and more to support charity programs and causes.<br/>iConnectX offers features to individual professionals to create fundraiser events, and auctions on nonprofit's behalf help raise funds to support their cause and programs.";
+    details = "Frontend developer UI/UX";
+    break;
+    case "omla":
+    title = "Omla - Multi Currency";
+    logo = "images/projects/omla.png";
+    url = "http://151.253.147.221:6652/";
+    country = "United Arab Emirates";
+    description = "OMLA Gift Card can be used to pay for all or part of your transactions at any location where ever the scheme (which is on the front of your card is accepeted) across the world.";
+    details = "Frontend developer UI/UX";
+}
+    $('#project-details .project-name').html(title+' <small class="float-right"><i class="fa fa-map-marker"></i> '+country+'</small>');
+    $('#project-details .modal-title').html(title);
+    $('#project-details .product-logo').attr({'src':logo,'alt':'Yousuf S A | Work | '+title});
+    $('#project-details .project-desc').html(description);
+    $('#project-details .project-role').html(details);
+    $('#project-details .project-link').html(url).attr('href',url);
+    $('#project-details').modal('show');
+}
 
   
   
