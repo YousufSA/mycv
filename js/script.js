@@ -505,7 +505,7 @@ function showProject(name){
     url = "https://www.mybestgift.com.au/";
     country = "United Arab Emirates";
     description = "My Best Gift is Australia's only online marketplace dedicated to kids activities and experiences. It cater for all ages, from new - borns to 18 - year - olds.";
-    details = "Frontend and Backend functionality";
+    details = "Frontend developer UI/UX";
     break;
     case "iconnectx":
     title = "iConnectX";
