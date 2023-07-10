@@ -475,6 +475,38 @@ $(document).ready(function(){
 function showProject(name){
     var title="",description="",logo="",details="",url="",country="";
     switch (name) {
+  case "bimmertech":
+    title = "BimmerTech";
+    logo = "images/projects/BimmerTech-logo.png";
+    url = "https://www.bimmer-tech.net/";
+    country = "United Arab Emirates";
+    description = "High-quality BMW upgrade with an OEM look, BimmerTech is the go-to place for the mods, retrofits, and updates you’ve been dreaming about.";
+    details = "Frontend developer UI/UX";
+    break;
+  case "speakers":
+    title = "CUSTOMIZED SOUND SYSTEM FOR BMW and Mini";
+    logo = "images/projects/speaker-amp.png";
+    url = "https://www.bimmer-tech.net/speakers-and-audio-amplifier-for-bmw";
+    country = "United Arab Emirates";
+    description = "Upgrade the BMW sound system with the world's first complete audio upgrade kit for BMW. Learn more and get studio-quality sound in your BMW!";
+    details = "Frontend developer UI/UX";
+    break;
+  case "engine":
+    title = "BMW Engine Tuning";
+    logo = "images/projects/performance-logo.svg";
+    url = "https://www.bimmer-tech.net/speakers-and-audio-amplifier-for-bmw";
+    country = "United Arab Emirates";
+    description = "Add power and lower fuel consumption with remote ECU tuning by Awaken Performance. Up to 25% More Power, 35% Less Fuel.";
+    details = "Frontend developer UI/UX";
+    break;
+  case "idrive":
+    title = "Easy BMW Coding";
+    logo = "images/projects/iDrive.png";
+    url = "https://www.bimmer-tech.net/bmw-idrive-coding";
+    country = "United Arab Emirates";
+    description = "Code your BMW easily without leaving home! Choose from dozens of options, including Video in Motion, Enhanced Bluetooth, Full-Screen CarPlay & More";
+    details = "Frontend developer UI/UX";
+    break;
   case "gomart":
     title = "GoMart";
     logo = "images/projects/gomart.svg";
